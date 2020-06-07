@@ -16,7 +16,7 @@ namespace Cw1
             
             var httpClient = new HttpClient();
 
-            var response = await httpClient.GetAsync("http://www.nask.pl");
+            var response = await httpClient.GetAsync(args[0]);
            string response_string= await httpClient.GetStringAsync(args[0]);
             Console.WriteLine(response.StatusCode);
        //    Console.WriteLine(response_string);
