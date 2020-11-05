@@ -1,1 +1,3 @@
-Rafał Bogusz grupa internetowa s17567
+Rafał Bogusz
+grupa internetowa
+s17567
